@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.idea/.gitignore
+/typechain-types/common.ts
+/artifacts/*
+/typechain-types/*
+/.idea/modules.xml
+/.idea/newproject_with_ethers_forge_tsc.iml
+/package.json
+/cache/*
+/.idea/vcs.xml
+/yarn.lock
