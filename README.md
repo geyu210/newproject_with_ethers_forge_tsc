@@ -1,3 +1,15 @@
+## typechain
+
+If you want to use hardhat auto creat typechain types ,must use this :
+"hardhat": "^2.13.0",
+"typechain": "8.1.1",
+"@typechain/hardhat": "^6.1.6",
+
+
+## Typescript
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
