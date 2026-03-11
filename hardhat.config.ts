@@ -31,6 +31,11 @@ const config: HardhatUserEtherscanConfig = {
   solidity: {
     compilers: [{ version: "0.8.27", settings: {} }],
   },
+  // 添加 TypeChain 配置
+  typechain: {
+    outDir: "typechain-types", // 输出类型定义文件的目录
+    target: "ethers-v5",       // 目标库为 ethers v5
+  },
   etherscan: {
     // Your API key for Etherscan
     // Obtain one at https://etherscan.io/
